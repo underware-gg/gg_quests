@@ -16,7 +16,7 @@ Add environment variables to `.env`:
 NETWORK_ID=MAINNET
 
 # [gg.xyz config]
-# API_URL=https://api.gg.quest
+# API_URL=https://api.gg.xyz
 GAME_SECRET=1234
 ```
 

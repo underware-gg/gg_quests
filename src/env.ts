@@ -7,7 +7,7 @@ const envSchema = z.object({
   ACCOUNT_ADDRESS: z.string().optional(),
   ACCOUNT_PRIVATE_KEY: z.string().optional(),
   // gg.xyz
-  API_URL: z.string().optional().default('https://api.gg.quest'),
+  API_URL: z.string().optional().default('https://api.gg.xyz'),
   GAME_SECRET: z.string(),
 });
 
