@@ -7,6 +7,7 @@ import { NetworkId, NETWORKS, getManifest, makeStarknetDomain } from '@underware
 import { env } from './env.js';
 
 const networkId = env.NETWORK_ID as NetworkId;
+// const networkId = NetworkId.ACADEMY;
 const networkConfig = NETWORKS[networkId];
 const starknerDomain = makeStarknetDomain(networkId);
 
