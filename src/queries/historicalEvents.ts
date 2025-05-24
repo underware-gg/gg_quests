@@ -53,7 +53,7 @@ export const historicalEventsListener = async (sdk: SDK<PistolsSchemaType>) => {
           actionsPerPlayer.append(bigintToAddress(activity.player_address), 'Death of a Duelist');
         }
         if (action_id === constants.Activity.ChallengeResolved) {
-          actionsPerPlayer.append(bigintToAddress(activity.player_address), 'Win a Duel');
+          actionsPerPlayer.append(bigintToAddress(activity.player_address), 'Win A Duel');
         }
         // if (action_id === constants.Activity.ClaimedGift) {
         //   actionsPerPlayer.append(bigintToAddress(activity.player_address), 'Claim a Gift');
